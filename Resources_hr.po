@@ -1399,6 +1399,9 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
+"Dogodila se pogreška prilikom popravka kodiranja datoteke. \n"
+"Ne pokušavajte spremiti ovu skicu jer može prebrisati \n"
+"staru verziju. Koristite opciju otvori, da bi ponovo učitali skicu i pokušajte ponovo. \n"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
