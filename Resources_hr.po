@@ -1329,7 +1329,8 @@ msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
-
+"Ne mogu pročitati postavke boja. \n"
+"Morate reinstalirati Processing." 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
 msgstr "Arhiviraj skicu"
