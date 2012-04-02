@@ -1412,7 +1412,7 @@ msgstr ""
 
 #: UpdateCheck.java:111
 msgid "Update"
-msgstr ""
+msgstr "Ažuriraj"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
