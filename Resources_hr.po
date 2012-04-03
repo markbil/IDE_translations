@@ -71,7 +71,7 @@ msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Dostigli ste današnji limit za automatsko davanje imena novih skećova\n"
+"Dostigli ste današnji limit za automatsko davanje imena novih skica\n"
 "Zašto ne bi otišli u šetnju?"
 
 #: Base.java:534
@@ -84,7 +84,7 @@ msgstr "Ne, vrijeme je da otiđete na zrak"
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "Otvori Arduino skeć..."
+msgstr "Otvori Arduino skicu..."
 
 #: Base.java:769
 msgid ""
@@ -94,7 +94,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Jeste li sigurni da želite odustati?
-</b><p>Zatvaranje zadnjeg otvorenog skeća ce zatvoriti Arduino."
+</b><p>Zatvaranje zadnje otvorene skice će zatvoriti Arduino."
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr "Skeć ne postoji"
+msgstr "Skica ne postoji"
 
 #: Base.java:1093
 msgid ""
@@ -118,7 +118,7 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"Izabrali ste skeć koji više ne postoji.\n"
+"Izabrali ste skicu koja više ne postoji.\n"
 "Provajte ponovno startati Arduino da bi ste obnovili\n"
 "meni"
 #: Base.java:1122
@@ -130,15 +130,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"Skeć \"{0}\" se ne moze koristiti.\n"
-"Ime skeća se smi samo sastojati od obićnih slova i brojeva.\n"
+"Skica \"{0}\" se ne moze koristiti.\n"
+"Ime skice se smi samo sastojati od obićnih slova i brojeva.\n"
 "(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
 "Da bi ste zatvorili ovu poruku, izbrišite skeć iz\n"
 "{1}"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "Skeć sa nevažecem imenom se ignorira"
+msgstr "Skica sa nevažecem imenom se ignorira"
 
 #: Base.java:1199
 #, java-format
@@ -174,7 +174,7 @@ msgstr ""
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr "Zaboravili ste skeć knižicu"
+msgstr "Zaboravili ste knižicu skica"
 
 #: Base.java:1600
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr "Izaberite ili napravite novi direktorij za skećove"
+msgstr "Izaberite ili napravite novi direktorij za skice"
 
 #: Base.java:1644
 msgid "Problem Opening URL"
@@ -301,7 +301,7 @@ msgstr "Pogreška u kompiliranju"
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "Importirajte SPI datoteku iz menija Skeć > Import"
+msgstr "Importirajte SPI datoteku iz menija Skica > Import"
 
 #: debug/Compiler.java:466
 msgid ""
@@ -311,10 +311,15 @@ msgid ""
 "library.\n"
 "\n"
 msgstr ""
+"Od Arduino 0019 Ethernet biblioteka se oslanja na SPI datoteku.\n"
+"Vi koristite tu ili jednu drugu datoteku koja se oslanja na SPI "
+"datoteku.\n"
+"\n"
+
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr ""
+msgstr "Ključna riječ 'BYTE' se više ne podržava."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -323,10 +328,14 @@ msgid ""
 "Please use Serial.write() instead.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, ključna riječ 'BYTE' se više ne podržava.\n"
+"Molim koristite Serial.write() umjesto toga.\n"
+"\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr ""
+msgstr "Server klasa je prominila naziv u EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
@@ -335,10 +344,15 @@ msgid ""
 "to EthernetServer.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, Server klasa u Ethernet datoteci je prominila naziv "
+"u EthernetServer.\n"
+"\n"
+
 
 #: debug/Compiler.java:483
 msgid "The Client class has been renamed EthernetClient."
-msgstr ""
+msgstr "Client klasa je prominila naziv u EthernetClient"
 
 #: debug/Compiler.java:484
 msgid ""
@@ -347,10 +361,15 @@ msgid ""
 "to EthernetClient.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, Client klasa u Ethernet datoteci je prominila naziv "
+"u EthernetClient.\n"
+"\n"
+
 
 #: debug/Compiler.java:489
 msgid "The Udp class has been renamed EthernetUdp."
-msgstr ""
+msgstr "Udp klasa je prominila naziv u EthernetUdp"
 
 #: debug/Compiler.java:490
 msgid ""
@@ -359,10 +378,15 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, Udp klasa u Ethernet datoteci je prominila naziv u "
+"EthernetClient.\n"
+"\n"
+
 
 #: debug/Compiler.java:495
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr ""
+msgstr "Wire.send() se prominilo u Wire.write()."
 
 #: debug/Compiler.java:496
 msgid ""
@@ -371,10 +395,14 @@ msgid ""
 "consistency with other libraries.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, Wire.send() funkciji se prominio naziv u Wire.write() zbog "
+"konsistencije s drugim bibliotekama.\n"
+"\n"
 
 #: debug/Compiler.java:501
 msgid "Wire.receive() has been renamed Wire.read()."
-msgstr ""
+msgstr "Wire.receive() se prominilo u Wire.read()."
 
 #: debug/Compiler.java:502
 msgid ""
@@ -383,6 +411,10 @@ msgid ""
 "for consistency with other libraries.\n"
 "\n"
 msgstr ""
+"\n"
+"Od Arduino 1.0, Wire.receive() funkciji se prominio naziv u Wire.read() zbog"
+"konsistencije s drugim bibliotekama.\n"
+"\n"
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -393,74 +425,79 @@ msgstr ""
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
+"izabrani serial port {0} ne postoji na vašoj pločici ili nije priključen"
 
 #: debug/Uploader.java:203
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
+**********************
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
+**********************
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
+"Krivi mikrokontroler je nađen.  Jeste li izabrali pravu pločicu iz menija Alati "
+"> Pločica?"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr ""
+msgstr "Nijedna datoteka nije priložena skici"
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr ""
+msgstr "Jedna datoteka je priložena skici"
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr ""
+msgstr "{0} datoteka su priloženi skici"
 
 #: Editor.java:484
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr ""
+msgstr "Knjižica skica"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr ""
+msgstr "Primjeri"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr ""
+msgstr "Spremi"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr ""
+msgstr "***************"
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr ""
+msgstr "*************"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr ""
+msgstr "***********************"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -476,7 +513,7 @@ msgstr ""
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr ""
+msgstr "Skica"
 
 #: Editor.java:602
 msgid "Verify / Compile"
