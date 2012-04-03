@@ -1271,50 +1271,56 @@ msgstr ""
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
 msgstr ""
-
+"Ne mogu odrediti veličinu programa: {0}"
 #: Sketch.java:1694
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr ""
-
+"Skica je prevelika; Pogledaj http://www.arduino.cc/en/Guide/Troubleshooting#size za "
+"savjete kako je smanjiti."
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
 msgstr ""
-
+"Nedostaje */ od krajeva */ komentara*/"
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
 msgstr ""
-
+"Skica je nestala"
 #: Sketch.java:1797
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-
+"Direktorij skice je nestao. \n"
+"Pokušat ću ga snimiti na istoj lokaciji, \n"
+"ali će sve promijene osim koda biti izgubljene."
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
 msgstr ""
-
+"Ne mogu ispravno spremiti skicu"
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-
+"Ne mogu ispravno spremiti skicu. U ovom trenu može doći do problema, \n"
+"i dobro bi bilo da kopirate svoj kod u neki drugi uređivač teksta."
 #: Sketch.java:2060
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-
+"Naziv skice mora biti promijenjen. Ime može sadržavati samo \n"
+"od ASCII znakova i brojeva (ali ne smije započinjati brojem). \n"
+"Ime ne smije sadržavati više od 64 znaka."
 #: SketchCode.java:83
 #, java-format
 msgid "Error while loading code {0}"
 msgstr ""
-
+"Greška prilikom učitavanja koda {0}"
 #: SketchCode.java:258
 #, java-format
 msgid ""
