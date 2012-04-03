@@ -1323,7 +1323,10 @@ msgid ""
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
 msgstr ""
-
+"\"{0}\" sadrži neprepoznate znakove. Ako je ovaj kod kreiran sa
+"starijom verzijom Processing-a, trebate koristiti opciju Alati -> Popravi kodiranje"
+"Ponovo učitaj za ažuriranje skice da koristi UTF-8 kodiranje. Ako ne uspije, morati ćete
+izbrisati nepodržane znakove da se makne ovo upozorenje."
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
